@@ -1,6 +1,6 @@
-# Fullstack Discord Clone: Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL | Full Course 2023
+# OmniChat - A Fullstack Discord Clone
 
-Features:
+### Features:
 
 - Real-time messaging using Socket.io
 - Send attachments as messages using UploadThing
@@ -49,3 +49,12 @@ NEXT_PUBLIC_LIVEKIT_URL=
 - **One `Member`** → Many `Messages`, `Conversations`, `DMs`
 - **One `Conversation`** → Many `DirectMessages`
 - **One `Profile`** is **tied to auth system** via `userId`
+
+## Stacks and technologies
+
+- Next.js 13
+- React
+- Socket.io
+- Prisma
+- Tailwind
+- MySQL
