@@ -1,6 +1,6 @@
 # OmniChat - A Fullstack Discord Clone
 
-### Features:
+### Features
 
 - Real-time messaging using Socket.io
 - Send attachments as messages using UploadThing
@@ -41,7 +41,7 @@ LIVEKIT_API_SECRET=
 NEXT_PUBLIC_LIVEKIT_URL=
 ```
 
-## Database Relationships Summary
+### Database Relationships Summary
 
 - **One `Profile`** → Many `Servers`, `Members`, `Channels`
 - **One `Server`** → Many `Channels`, `Members`
@@ -50,7 +50,7 @@ NEXT_PUBLIC_LIVEKIT_URL=
 - **One `Conversation`** → Many `DirectMessages`
 - **One `Profile`** is **tied to auth system** via `userId`
 
-## Stacks and technologies
+### Stacks and technologies
 
 - Next.js 13
 - React
