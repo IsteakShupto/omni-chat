@@ -5,14 +5,13 @@ import { currentProfile } from "@/lib/current-profile";
 import { db } from "@/lib/db";
 
 interface ServerIdPageProps {
-  params: {
+  params: Promise<{
     serverId: string;
-  }
+  }>
 };
 
-const ServerIdPage = async ({
-  params
-}: ServerIdPageProps) => {
+const ServerIdPage = async (props: ServerIdPageProps) => {
+  const params = await props.params;
   const profile = await currentProfile();
 
   if (!profile) {
