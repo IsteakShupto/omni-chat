@@ -52,7 +52,7 @@ NEXT_PUBLIC_LIVEKIT_URL=
 
 ### Stacks and technologies
 
-- Next.js 13
+- Next.js 15
 - React
 - Socket.io
 - Prisma
